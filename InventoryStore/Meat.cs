@@ -8,6 +8,14 @@ namespace InventoryStore
 {
     public class Meat
     {
+        public string MeatName;
 
+
+
+        public Meat ( string meatname)
+        {
+            MeatName = meatname;
+        }
     }
+
 }

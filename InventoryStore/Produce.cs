@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace InventoryStore
 {
-    internal class Produce
+    public  class Produce
     {
+        public string Fruits;
+        public string Veggies;
+
+
+
+        public Produce (string fruits, string veggies)
+        {
+            Fruits = fruits;
+            Veggies = veggies;
+        }
     }
 }

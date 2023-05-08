@@ -3,7 +3,7 @@ namespace InventoryStoreTests
     public class InventoryTest
     {
         [Fact]
-        public void Test1()
+        public void Meat_GetsCreatedWith_CorrectPropeties()
         {
 
         }
